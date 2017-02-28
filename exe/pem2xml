@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "pem2xml"
+
+Pem2xml.main
