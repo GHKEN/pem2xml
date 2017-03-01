@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["GHKEN"]
   spec.email         = ["tetsuya@ghken.com"]
 
-  spec.summary       = "pem to xml"
-  spec.description   = "pem to xml"
+  spec.summary       = "RSA PEM key to XML for .NET"
+  spec.description   = "RSA PEM key to XML for .NET"
   spec.homepage      = "https://github.com/ghken/pem2xml"
   spec.license       = "MIT"
 
