@@ -70,7 +70,4 @@ module Pem2xml
       end 
     end
   end
-
-  class CLI < Thor
-  end
 end
