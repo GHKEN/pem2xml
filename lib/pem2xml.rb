@@ -9,10 +9,10 @@ module Pem2xml
   def self.main()
     file_name = ARGV[0]
     raise "key file doesn't exists" if (file_name == nil) || !File.exists?(file_name)
-    p "loading #{file_name}"
+    puts "loading #{file_name}"
     file = File.open file_name
     key = OpenSSL::PKey::RSA.new file
-    p key.to_xml.to_s
+    puts key.to_xml.to_s
   end
 
   class OpenSSL::BN
